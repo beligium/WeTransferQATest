@@ -11,16 +11,20 @@ a free account.
 Requirements:
 -------------
 * The upload/ download must be performed with multiple files of different types
-and sizes
-* Write the steps using Gherkin language and document the code
-* Generate a report
-* Create documentation explaining how to execute the tests
+and sizes - not complete, see comments in steps.js / main.page.js for details
+* Write the steps using Gherkin language and document the code - Done
+* Generate a report - Done
+* Create documentation explaining how to execute the tests - Done
 
 Installation:
 -------------
 Installation assumes node.js and git bash are succesfully installed on your system.
 
-Once you have cloned the repository to the directory of your choice, tests can be run via:
+Once you have cloned the repository to the directory of your choice run:
+
+    npm install
+
+Tests can be run via:
 
     npx wdio run ./wdio.conf.js
 
